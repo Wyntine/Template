@@ -1,0 +1,12 @@
+# Base files
+
+node_modules
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# Build files
+
+dist
+
+# Extra files

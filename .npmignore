@@ -1,0 +1,19 @@
+# Base files
+
+node_modules
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# Source files
+
+src
+
+# Config files
+
+tsconfig.json
+.gitignore
+eslint.config.js
+tsup.config.ts
+
+# Extra files
