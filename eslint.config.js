@@ -14,6 +14,15 @@ export default tseslint.config(
         tsconfigRootDir: import.meta.dirname,
       },
     },
-    ignores: ["dist", "node_modules", "tsup.config.ts", "eslint.config.js"],
+  },
+  {
+    ignores: [
+      "dist",
+      "node_modules",
+      "tsup.config.ts",
+      "eslint.config.js",
+      "vitest.config.ts",
+      "global.d.ts",
+    ],
   },
 );
