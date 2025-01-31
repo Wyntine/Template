@@ -2,7 +2,7 @@
 
 ## Description
 
-This project template is designed for my personal TypeScript projects. It is using ESLint, TypeScript and configs for consistent developments across my projects.
+This project template is designed for my personal TypeScript projects. It uses ESLint, TypeScript and configs for consistent developments across my projects.
 
 ## Table of Contents
 
@@ -49,15 +49,32 @@ To build the project for production, run:
 npm run build
 ```
 
+### Development
+
+To run without building the project, run:
+
+```
+npm start
+```
+
 This command will compile the TypeScript files and create a production-ready build in the `dist` directory.
 
 ## Scripts
 
 Here are the scripts available in this project template:
 
-- `npm run build`: Build the project for production.
-- `npm run lint`: Check for TypeScript errors and lint with ESLint.
-- `npm run test`: Run the project's tests.
+- `start`: Run the project without building.
+- `build`: Build the project for production.
+- `lint`: Checks for TypeScript errors, lints with ESLint and formats with Prettier.
+- `test`: Run the project's tests using Vitest.
+
+Some of them are for development use and are not generally needed to be used seperately:
+
+- `prepack`: Lints and builds the project before packaging.
+- `eslint`: ESLint linting script.
+- `typeCheck`: TypeScript type checking with TSC.
+- `test:coverage`: Generates code coverage report.
+- `test:run`: Runs the tests once.
 
 ## Contributing
 
