@@ -8,7 +8,9 @@
     "module": "NodeNext",
     "noEmit": true,
     "types": ["node", "vitest/globals"],
-    "lib": ["ESNext"]
+    "lib": ["ESNext"],
+    "resolveJsonModule": true,
+    "allowImportingTsExtensions": true
   },
   "include": ["src/**/*.ts"]
 }
