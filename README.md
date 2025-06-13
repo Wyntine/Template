@@ -43,6 +43,8 @@ npm run lint
 
 ### Building
 
+**Note**: If you do not want to build the project (just using TypeScript to run the project), you may want to change settings in `tsconfig.json`
+
 To build the project for production, run:
 
 ```

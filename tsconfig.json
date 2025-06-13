@@ -1,16 +1,30 @@
 {
   "extends": "./node_modules/@tsconfig/strictest/tsconfig.json",
   "compilerOptions": {
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "target": "es2024",
     "verbatimModuleSyntax": true,
-    "rootDir": "src",
-    "removeComments": true,
+    "resolveJsonModule": true,
+    "moduleDetection": "force",
+    "strict": true,
+
+    /** If compiling (TS -> JS) */
     "moduleResolution": "NodeNext",
     "module": "NodeNext",
-    "noEmit": true,
+    "outDir": "dist",
+    "sourceMap": true,
+
+    /** If not compiling */
+    // "moduleResolution": "bundler",
+    // "module": "esnext",
+    // "noEmit": true,
+    // "allowImportingTsExtensions": true,
+
+    "rootDir": "src",
+    "removeComments": true,
     "types": ["node", "vitest/globals"],
-    "lib": ["ESNext"],
-    "resolveJsonModule": true,
-    "allowImportingTsExtensions": true
+    "lib": ["ES2024"]
   },
   "include": ["src/**/*.ts"]
 }
