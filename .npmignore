@@ -16,7 +16,7 @@ src
 tsconfig.json
 .gitignore
 eslint.config.js
-tsup.config.ts
+tsdown.config.ts
 vitest.config.ts
 global.d.ts
 .vscode

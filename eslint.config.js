@@ -19,7 +19,7 @@ export default tseslint.config(
     ignores: [
       "dist",
       "node_modules",
-      "tsup.config.ts",
+      "tsdown.config.ts",
       "eslint.config.js",
       "vitest.config.ts",
       "global.d.ts",
